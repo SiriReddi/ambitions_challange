@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
                 ('model', models.CharField(max_length=256)),
                 ('cost_in_credits', models.IntegerField(null=True)),
                 ('crew', models.IntegerField(null=True)),
-                ('passengers', models.IntegerField()),
+                ('passengers', models.IntegerField(null=True)),
                 ('cargo_capacity', models.IntegerField(null=True)),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('modified_at', models.DateTimeField(auto_now=True)),
